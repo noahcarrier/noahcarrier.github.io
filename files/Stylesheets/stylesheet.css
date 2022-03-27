@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Oswald:wght@300&display=swap');
+
+body {
+    background-image: url(../images/background-shades.png);
+
+}
+
+h2 {
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: xx-large;
+}
+
+.row {
+    display: flex;
+}
+
+   
+.column {
+    flex: 50%;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+.row-info {
+    display: flex;
+}
+
+   
+.column-info {
+    flex: 25%;
+}
+
+#featuredProjects-projects-projInfoBox {
+    background-color: #1c1a1d;
+    margin-left: -100px;
+    height: 200px;
+    width: 600px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 30px;
+   
+}
+
+#projInfoBox-title {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+#languageLogo {
+    height: 40px;
+    width: 40px;
+    margin-left: 550px;
+    margin-top: 50px;
+       
+}
+
+#projInfoBox-desc {
+    color: #484649;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+#skill-skills-skillInfoBox {
+    background-color: #1c1a1d;
+    margin-left: -0px;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 30px;
+   
+}
+
+#skillInfoBox-title {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+
+#skillInfoBox-desc {
+    color: #484649;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+#menuButton {
+    color: white;
+    background:none;
+    border: none;
+    padding: 0;
+    width: 150px;
+    font-size: x-large;
+    font-family: 'Oswald', sans-serif;
+}
+
+#menuBar {
+    margin-top: 50px;
+    background-color: #1c1a1d;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#menuContainer {
+    align-self: center;
+}
+
+
+
