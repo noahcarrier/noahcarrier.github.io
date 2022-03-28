@@ -31,6 +31,10 @@ h2 {
     flex: 25%;
 }
 
+.button {
+    background-color: none;
+    border: none;
+}
 #featuredProjects-projects-projInfoBox {
     background-color: #1c1a1d;
     margin-left: -100px;
