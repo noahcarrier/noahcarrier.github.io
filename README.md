@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This repository utilizes GitHub pages to deploy a website at the URL noahcarrier.github.io
+This repository utilizes GitHub Pages to deploy a website at the URL noahcarrier.github.io
 
 The site is built to serve as a portfolio for myself, Noah Carrier, to display technical skills in both the building of the site itself and other presented projects on site.
 
