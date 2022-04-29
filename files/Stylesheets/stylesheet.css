@@ -35,6 +35,8 @@ h2 {
     background-color: none;
     border: none;
 }
+
+
 #featuredProjects-projects-projInfoBox {
     background-color: #1c1a1d;
     margin-left: -100px;
@@ -102,18 +104,20 @@ h2 {
 }
 
 #menuBar {
-    margin-top: 50px;
     background-color: #1c1a1d;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border-radius: 20px;
+    padding: 5px;
 }
 
 #menuContainer {
     align-self: center;
+    justify-content: center;
+    min-width:700px;
+    max-width: 700px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
 }
 
 /*
