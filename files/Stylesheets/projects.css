@@ -36,6 +36,12 @@ h2 {
     border: none;
 }
 
+#home-button {
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: black;
+}
 
 #featuredProjects-projects-projInfoBox {
     background-color: #1c1a1d;

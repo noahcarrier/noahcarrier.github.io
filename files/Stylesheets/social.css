@@ -32,3 +32,15 @@ h2 {
 .social-sec {
     margin-bottom: 50px;
 }
+
+.button {
+    background-color: none;
+    border: none;
+}
+
+#home-button {
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: black;
+}
