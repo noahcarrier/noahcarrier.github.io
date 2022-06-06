@@ -47,7 +47,7 @@ h3 {
     height: 200px;
     width: 600px;
     border-radius: 30px;
-    color: white;
+    color: rgb(230, 112, 212);
     margin-top: 30px;
    
 }
@@ -67,7 +67,7 @@ h3 {
 }
 
 #projInfoBox-desc {
-    color: #484649;
+    color: #e7e7e7;
     padding-left: 10px;
     margin-top: 10px;
 }
@@ -91,7 +91,7 @@ h3 {
 
 
 #skillInfoBox-desc {
-    color: #484649;
+    color: #e7e7e7;
     padding-left: 10px;
     margin-top: 10px;
 }
