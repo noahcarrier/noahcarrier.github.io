@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+header {
+    margin:auto;
+    height: 200px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    padding-top: 45px;
+    background-color: none;
+    text-align: center;
+}
+
+.nav-button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+    background: none;
+    border: none;
+    font-weight: lighter;
+}
+
+#title {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#subtitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: large;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 300;
+}
