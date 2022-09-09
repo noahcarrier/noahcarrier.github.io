@@ -36,12 +36,16 @@ header {
 nav {
     padding-top: 45px;
     background-color: none;
-    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 a {
     color: black;
 }
+
+
 
 #home, #about, #projects, #contact {
     width: 100%;
@@ -54,6 +58,7 @@ a {
     background: none;
     border: none;
     font-weight: lighter;
+    padding-right: 50px;
 }
 
 #title {
