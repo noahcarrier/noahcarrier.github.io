@@ -1,0 +1,45 @@
+<!-- About Page -->
+<!-- Explains the purpose of the website to the user -->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>RoadTrip About</title>
+        <link rel = "stylesheet" href = "src/css/aboutstyles.css">
+        <script src = "src/scripts/about.js"></script>
+    </head>
+    <body style = "background-color: #98e0e5">
+        <h1>About</h1>
+
+        <!-- Images -->
+        <img class = "road-signs" src = "icons/RoadSigns.png" alt = "Road Signs Icon" width = "1200" height = "1200">
+        <h3 class = "first-txt">Hi there! Thank you for using RoadTrip. </h3>
+        <h3 class = "first-txt2"> Select a state and receive information about its: </h3>
+        <h3 class = "second-txt">Road Rules</h3>
+        <h3 class = "third-txt">Fun Facts</h3>
+        <h3 class = "fourth-txt">Famous Landmarks</h3>
+        <h3 class = "fifth-txt">Happy Travels! :)</h3>
+
+        <!-- Goes back to the home page -->
+        <button id = "goback_btn" onclick="window.location.href='index.html';">Home</button>
+
+        <!-- Next Button -->
+        <div class = "next">  <a href = "login.html"> <p>Next</p> </a></div>
+           
+        <script language="javascript">
+            function autoResizeDiv()
+            {
+                document.getElementById('main').style.height = window.innerHeight +'px';
+            }
+            window.onresize = autoResizeDiv;
+            autoResizeDiv();
+        </script>
+
+        <footer>
+            RoadTrip Project Created By Team 20: Anna Macinnis, Daisy Nguyen, Dynie Mesoneuvre, Noah Carrier <br>
+            <a href="https://docs.google.com/document/d/1ieDgPQo-LrwCqGmtPUCRu34jMhZunQXqmar1HXphHWQ/edit?usp=sharing" target="_blank">Sources</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,235 @@
+@font-face {
+    font-family: noot;
+    src: url(/fonts/noot.ttf); 
+}
+
+@font-face {
+    font-family: norwester;
+    src: url(/fonts/norwester.ttf); 
+}
+
+body
+{
+    background-color: #98e0e5;
+    overflow:hidden;
+     margin:0;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    color: black;
+    background: rgb(186, 186, 186);
+    font-family: norwester;
+}
+
+h1 {
+    font-family: noot;
+    font-size: 100px; 
+    color: black;
+    position: absolute; 
+    top: -5px; 
+    left: 400px; 
+    animation: 2s anim-lineUp ease-out;
+}
+
+h3 {
+    font-family: norwester; 
+    font-size: 45px;
+    color: #155ac1;
+    position: absolute; 
+    top: 150px; 
+    left: 420px; 
+    animation: 2s anim-lineUp ease-out;
+}
+button {
+    font-family: norwester;
+    font-size: 30px;
+    color: #0b0c0d; 
+    padding: 10px 20px;
+    top: 550px; 
+    left: 450px; 
+    position: absolute; 
+    background: none;
+    border: none; 
+    cursor: pointer; 
+    transition-duration: 0.4s; 
+    margin-top: 100px;
+    transform:translateY(-900px);
+    transform:translateX(196px);
+}
+/* #finishTrip_btn 
+{
+    background-color: white; 
+    position: relative;
+    left: 400px;
+    top: -300px;
+      border-radius: 500px;
+  border: 8px solid #040404;
+}
+
+#addToTrip_btn
+{
+    background-color: white; 
+    position: relative;
+    left: 200px;
+    top: -300px;
+      border-radius: 500px;
+  border: 8px solid #040404;
+} */
+#done_btn
+{
+    font-family: norwester;
+    font-size: 35px;
+    color: rgb(0, 0, 0); 
+    background-color: #ffffff; 
+    padding: 10px 20px;
+    top: 350px; 
+    left: 470px; 
+    position: absolute; 
+    border-radius: 500px;
+    border: 8px solid black;
+    cursor: pointer; 
+    transition-duration: 0.4s; 
+} 
+
+#addBtn
+{
+    background-color: white; 
+    position: relative;
+    left: 595px;
+    top: -100px;
+    border-radius: 500px;
+    border: 8px solid black;
+} 
+
+#goback_btn {
+    font-family: norwester;
+    font-size: 35px;
+    color: white; 
+    background-color: #155ac1; 
+    padding: 10px 20px;
+    top: -60px; 
+    left: -160px; 
+    position: absolute; 
+    border-radius: 12px; 
+    border: 1px solid #155ac1; 
+    cursor: pointer; 
+    transition-duration: 0.4s; 
+}
+
+#stateSelect {
+    border-color: black;
+    color:black;
+    background-color: white;
+    border-radius: 15px;
+    /* transform:translateY(00px);
+    transform:translateX(-560px); */
+    position: relative;
+    left: -580px;
+    top: -280px;
+    font-size: 27px;
+}
+
+.dirt-road-bottom {
+    top: 415px; 
+    left: -150px; 
+    position: absolute; 
+}
+
+.dirt-road-top {
+    top: 480px; 
+    left: -150px;
+    position: absolute;
+}
+
+.road {
+    top: 295px; 
+    left: -125px; 
+    position: absolute; 
+}
+
+.car {
+    top: 275px; 
+    left: -70px; 
+    position: absolute; 
+}
+
+.cloud-left {
+    top: -200px; 
+    left: -120px; 
+    position: relative;
+    animation-name: float;
+   animation-duration: 2s;
+   animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.tree-stump {
+    top: 360px; 
+    left: 1145px; 
+    position: absolute; 
+}
+
+.cactus {
+    top: 180px; 
+    left: 930px; 
+    position: absolute; 
+}
+
+.bush {
+    top: 340px; 
+    left: 825px; 
+    position: absolute; 
+}
+
+.cloud-right {
+    top: -130px; 
+    left: 250px; 
+    position: relative;
+     animation-name: float2;
+   animation-duration: 2s;
+   animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+@keyframes float {
+   0% { left: -130px; }
+   15% {left: -120px; }
+   20% {left: -110px; }
+   25% {left: -90px; }
+   50% {left: -80px; }
+   60% {left: -70px; }
+   70% {left: -60px; }
+   100% {left: -50px; }
+}
+  @keyframes float2 {
+   0% { left: 250px; }
+   15% {left: 240px; }
+   20% {left: 230px; }
+   25% {left: 220px; }
+   50% {left: 210px; }
+   60% {left: 200px; }
+   70% {left: 190px; }
+   100% {left: 180px; }
+}  
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
