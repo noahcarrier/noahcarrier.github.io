@@ -1,5 +1,3 @@
 # Noah Carrier Portfolio Site
-```{r, out.width = '20px'}
-knitr::include_graphics('src/images/logo/logo.png')
-```
+<img src = "src/images/logo/logo.png" width = "20px">
 This site is developed as a space to display my skills I've equipped in my career so far
