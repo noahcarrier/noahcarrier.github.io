@@ -1,49 +1,55 @@
 <!DOCTYPE html>
     <html lang = "en">
         <head>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-
-                html {
-                    scroll-behavior: smooth;
-                }
-                body {
-                    background-color: rgb(255, 255, 255);
-                    color: black;
-                }
-
-                #title {
-                    font-family: 'Roboto Condensed', sans-serif;
-                    color: black;
-                    font-size: xx-large;
-                    text-align: center;
-                    font-weight: bolder;
-                    margin-top: 200px;
-                }
-
-                #subtitle {
-                    font-family: 'Roboto Condensed', sans-serif;
-                    color: black;
-                    font-size: large;
-                    text-align: center;
-                    font-weight: 300;
-                    margin-top: 10px;
-                }
-            </style>
-            
+            <link rel="stylesheet" href="src/css/page/index.css">
+            <link rel="stylesheet" href="src/css/global.css">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width">
         </head>
         <body>
-                
-            <div id = "title">
-                <span style = "color: blue">n</span><span style = "color: rgb(238, 225, 30)">o</span><span style = "color: red">a</span><span style = "color: green">h</span>
-                <span style = "color: rgb(80, 80, 80);font-family: 'Roboto Condensed', sans-serif;font-weight: 300;"> carrier</span>
+            <div class = "content">
+                <section id = "home">
+                    <div class = "heading" id = "title-name">
+                        <h1>
+                            &#x2022; noah carrier &#x2022;
+                        </h1>
+                    </div>
+                    <div class = "heading" id = "subtitle">
+                        <h2>
+                            web ~ networks ~ people
+                        </h2>
+                    </div>
+                    <div class = "social-icons">
+                        <span class = "social-icon" id = "twitter-icon">
+                            <button class = "icon-button" OnClick = "location.href='https://twitter.com/noahcarrier'">
+                                <img src="src/images/twitter.png" width = "30px">
+                            </button>
+                        </span>
+                        <span class = "social-icon" id = "linkedin-icon">
+                            <button class = "icon-button" OnClick = "location.href='https://www.linkedin.com/in/noah-carrier-0bb377183/'">
+                                <img src="src/images/linkedin.png" width = "30px">
+                            </button>
+                        </span>
+                        <span class = "social-icon" id = "github-icon">
+                            <button class = "icon-button" OnClick = "location.href='https://github.com/noahcarrier'">
+                                <img src="src/images/github.png" width = "30px">
+                            </button>
+                        </span>
+                    </div>
+                </section>
+                <section id = "resume">
+                    <div class = "button-div">
+                        <button id = "resume-download" OnClick = "location.href='https://noahcarrier.github.io/download/Resume.pdf'">
+                            Résumé
+                        </button>
+                    </div>
+                </section>
+                <footer>
+                    hosted by github pages, learn to do it yourself: pages.github.com
+                </footer>
             </div>
-            <div id = "subtitle">
-                web&#x2022;networks&#x2022;people
-            </div>
-            <div style = "margin-top: 30px;font-family:'Roboto Condensed', sans-serif;font-size:medium; text-align:center;">
-                Thank you for visiting my website, it's current under construction as I develop a more dynamic showcase for my projects. Thank you for visiting and please return soon!
-            </div>
+            
+           
 
             
         </body>

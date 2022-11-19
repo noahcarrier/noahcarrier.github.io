@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@600&display=swap');
+body {
+    scroll-behavior: smooth;
+    background-color: bisque;
+}
+.content {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 480px;
+    padding: 20px;
+}
+
+footer {
+    font-size: x-small;
+    color: #4b371c;
+    font-family: 'Mali', cursive;
+    position: fixed;
+    bottom: 0;
+}
