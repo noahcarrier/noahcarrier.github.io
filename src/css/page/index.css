@@ -3,7 +3,7 @@ div.heading {
 }
 
 #title-name {
-    padding-top: 100px;
+    padding-top: 200px;
     font-size: x-large;
     color: #4b371c;
     font-family: 'Mali', cursive;
@@ -25,8 +25,9 @@ div.heading {
 }
 
 .icon-button {
-    background-color: bisque;
+    background-color:bisque;
     border: none;
+
 }
 
 .button-div {
@@ -35,6 +36,7 @@ div.heading {
 }
 
 #resume-download {
+    min-width: 150px;
     margin-top: 40px;
     padding: 10px;
     padding-left: 20px;
@@ -42,11 +44,120 @@ div.heading {
     font-size: x-large;
     color: #18130c;
     font-family: 'Mali', cursive;
-    background-color: #869e97;
+    /*background-color: #c1c59f;
     border-radius: 15px;
-    border: solid 3px #678985
+    border: solid 3px #7d9c8d;*/
 }
 
 #resume {
-    margin-top: 100px;
+    margin-top: 10px;
+
+}
+
+
+.pages-buttons {
+    padding: 20px;
+}
+
+#about-button {
+    min-width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-large;
+    color: #315f3b;
+    font-family: 'Mali', cursive;
+    /*background-color: #7d9c8d;
+    border-radius: 15px;
+    border: solid 3px #678985;*/
+    border: none;
+    background-color: transparent;
+}
+
+
+#contact-button {
+    min-width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-large;
+    color: #315f3b;
+    font-family: 'Mali', cursive;
+    /*background-color: #df9f63;
+    border-radius: 15px;
+    border: solid 3px #d5796a;*/
+    border: none;
+    background-color: transparent;
+}
+
+
+
+#projects-button {
+    min-width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-large;
+    color: #315f3b;
+    font-family: 'Mali', cursive;
+    /*background-color: #ebbb8c;
+    border-radius: 15px;
+    border: solid 3px #d48e73;*/
+    border: none;
+    background-color: transparent;
+}
+
+nav {
+    justify-content: center;
+    background-color:bisque;
+    width: 300px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.nav-item {
+    font-family: 'Mali', cursive;
+    font-size: 30px;
+}
+
+.navbar-brand {
+    font-family: 'Mali', cursive;
+    font-size: 40px;
+}
+
+section#about {
+    margin-top: 450px;
+}
+
+section#contact {
+    margin-top: 150px;
+}
+section#projects {
+    margin-top: 150px;
+}
+
+section#home {
+    
+}
+
+p {
+}
+.project-button {
+    min-width: 150px;
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: x-large;
+    color: #4b371c;
+    font-family: 'Mali', cursive;
+    background-color: #df9f63;
+    border-radius: 15px;
+    border: solid 3px #d5796a;
+   
 }
