@@ -1,13 +1,37 @@
 <!DOCTYPE html>
     <html lang = "en">
         <head>
+            <meta charset = "UTF-8">
+            <meta http-equiv = "X-UA-Compatible" content ="IE=edge">
+            <meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+            <title>Noah Carrier</title>
+            <link rel="stylesheet" href="css/bootstrap.css">
             <link rel="stylesheet" href="src/css/page/index.css">
             <link rel="stylesheet" href="src/css/global.css">
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width">
         </head>
         <body>
             <div class = "content">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="noahcarrier.github.io">home</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">about</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#projects">projects</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
                 <section id = "home">
                     <div class = "heading" id = "title-name">
                         <h1>
@@ -35,13 +59,63 @@
                                 <img src="src/images/github.png" width = "30px">
                             </button>
                         </span>
+                        <span class = "social-icon" id = "email-icon">
+                            <button class = "icon-button" OnClick = "location.href='mailto: noah.d.carrier@gmail.com'">
+                                <img src="src/images/email.png" width = "40px">
+                            </button>
+                        </span>
                     </div>
                 </section>
-                <section id = "resume">
-                    <div class = "button-div">
-                        <button id = "resume-download" OnClick = "location.href='https://noahcarrier.github.io/download/Resume.pdf'">
-                            Résumé
+                <section id = "about">
+                    <h1>
+                        about me
+                    </h1>
+                    <p style= "text-indent: 40px">
+                        I am currently studying Information Technology at the University of Central Florida, with a minor studies in Entrepreneurship.</p>
+                    <p style= "text-indent: 40px">
+                        I’ve developed skills in software development, computer architecture, data structures, network technology, databases, and several programming languages.
+                        I’m a member in the UCF Google Developer Student Club and Knight Hacks where I participate am able to attend seminars and submit projects in Hackathons.                     </p>
+                </section>
+                <section id = "projects">
+                    <h1>
+                        projects
+                    </h1>
+                    Road Trip [Award-Winning Hackathon Project]
+                    <p style= "text-indent: 40px">
+                        <button class = "project-button" OnClick = "location.href='https://devpost.com/software/road-trip-slpu5t'">
+                            Devpost Submission
                         </button>
+                    </p>
+                </section>
+                <section id = "contact">
+                    <h1>
+                        contact
+                    </h1>
+                    <div class = "social-icons" style = "margin-top: 80px">
+                        <span class = "social-icon" id = "twitter-icon">
+                            <button class = "icon-button" OnClick = "location.href='https://twitter.com/noahcarrier'">
+                                <img src="src/images/twitter.png" width = "30px">
+                                twitter.com/noahcarrier
+                            </button>
+                        </span>
+                        <span class = "social-icon" id = "linkedin-icon">
+                            <button class = "icon-button" OnClick = "location.href='https://www.linkedin.com/in/noah-carrier-0bb377183/'">
+                                <img src="src/images/linkedin.png" width = "30px">
+                                linkedin.com/in/noah-carrier-0bb377183
+                            </button>
+                        </span>
+                        <span class = "social-icon" id = "github-icon">
+                            <button class = "icon-button" OnClick = "location.href='https://github.com/noahcarrier'">
+                                <img src="src/images/github.png" width = "30px">
+                                github.com/noahcarrier
+                            </button>
+                        </span>
+                        <span class = "social-icon" id = "email-icon">
+                            <button class = "icon-button" OnClick = "location.href='mailto: noah.d.carrier@gmail.com'">
+                                <img src="src/images/email.png" width = "40px">
+                                noah.d.carrier@gmail.com
+                            </button>
+                        </span>
                     </div>
                 </section>
                 <footer>
@@ -49,7 +123,9 @@
                 </footer>
             </div>
             
-           
-
+           <!-- Load Bootstrap and Popper-->
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
         </body>
     </html> 
