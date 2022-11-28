@@ -161,3 +161,8 @@ p {
     border: solid 3px #d5796a;
    
 }
+
+h1, p {
+    font-family: 'Mali', cursive;
+
+}
