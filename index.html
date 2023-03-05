@@ -1,122 +1,124 @@
 <!DOCTYPE html>
     <html lang = "en">
         <head>
-            <meta charset = "UTF-8">
-            <meta http-equiv = "X-UA-Compatible" content ="IE=edge">
-            <meta name = "viewport" content = "width = device-width, initial-scale=1.0">
+            <!-- META TAGS-->
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
             <title>Noah Carrier</title>
-            <link rel="stylesheet" href="css/bootstrap.css">
-            <link rel="stylesheet" href="src/css/page/index.css">
+            <link rel="icon" type="image/x-icon" href="src/images/code-solid.ico">
+            <link rel="stylesheet" href="src/css/bootstrap.min.css">
             <link rel="stylesheet" href="src/css/global.css">
         </head>
         <body>
-            <div class = "content">
-                <nav class="navbar navbar-expand-lg">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-dark">
+
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="noahcarrier.github.io">home</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#about">about</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#projects">projects</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#contact">contact</a>
-                          </li>
+
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarCenteredExample"
+                            aria-controls="navbarCenteredExample"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    
+                        <div
+                            class="collapse navbar-collapse justify-content-center"
+                            id="navbarCenteredExample"
+                        >
+                            <!-- Left links -->
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Social</a>
+                            </li>
                         </ul>
                       </div>
                     </div>
-                  </nav>
-                <section id = "home">
-                    <div class = "heading" id = "title-name">
-                        <h1>
-                            &#x2022; noah carrier &#x2022;
-                        </h1>
-                    </div>
-                    <div class = "heading" id = "subtitle">
-                        <h2>
-                            web ~ networks ~ people
-                        </h2>
-                    </div>
-                    <div class = "social-icons">
-                        <span class = "social-icon" id = "linkedin-icon">
-                            <button class = "icon-button" OnClick = "location.href='https://www.linkedin.com/in/noah-carrier-0bb377183/'">
-                                <img src="src/images/linkedin.png" width = "30px">
-                            </button>
-                        </span>
-                        <span class = "social-icon" id = "github-icon">
-                            <button class = "icon-button" OnClick = "location.href='https://github.com/noahcarrier'">
-                                <img src="src/images/github.png" width = "30px">
-                            </button>
-                        </span>
-                        <span class = "social-icon" id = "email-icon">
-                            <button class = "icon-button" OnClick = "location.href='mailto: noah.d.carrier@gmail.com'">
-                                <img src="src/images/email.png" width = "30px">
-                            </button>
-                        </span>
-                    </div>
-                </section>
-                <section id = "about">
-                    <h1>
-                        about me
+                </nav>
+            </div>
+            <div class = "container">
+                <div id = "heading" class = "text-center mb-5">
+                    <h1 id = "home-head" class = "display-1 mt-5">
+                        Noah Carrier
                     </h1>
-                    <p style= "text-indent: 40px">
-                        I am currently studying Information Technology at the University of Central Florida, with a minor studies in Entrepreneurship.</p>
-                    <p style= "text-indent: 40px">
-                        I’ve developed skills in software development, computer architecture, data structures, network technology, databases, and several programming languages.
-                        I’m a member in the UCF Google Developer Student Club and Knight Hacks where I participate am able to attend seminars and submit projects in Hackathons.                     </p>
-                </section>
-                <section id = "projects">
-                    <h1>
-                        projects
-                    </h1>
-                    <p>Road Trip [Award-Winning Hackathon Project]</p>
-                    <p style= "text-indent: 40px">
-                        <button class = "project-button" OnClick = "location.href='https://devpost.com/software/road-trip-slpu5t'">
-                            Devpost Submission
-                        </button>
+                    <p id = "home-sub" class = "subtitle">
+                        development portfolio
                     </p>
-                </section>
-                <section id = "contact">
-                    <h1>
-                        contact
-                    </h1>
-                    <div class = "social-icons" style = "margin-top: 80px">
-                        <span class = "social-icon" id = "linkedin-icon">
-                            <button class = "icon-button" OnClick = "location.href='https://www.linkedin.com/in/noah-carrier-0bb377183/'">
-                                <img src="src/images/linkedin.png" width = "30px">
-                                linkedin.com/in/noah-carrier-0bb377183
-                            </button>
-                        </span>
-                        <span class = "social-icon" id = "github-icon">
-                            <button class = "icon-button" OnClick = "location.href='https://github.com/noahcarrier'">
-                                <img src="src/images/github.png" width = "30px">
-                                github.com/noahcarrier
-                            </button>
-                        </span>
-                        <span class = "social-icon" id = "email-icon">
-                            <button class = "icon-button" OnClick = "location.href='mailto: noah.d.carrier@gmail.com'">
-                                <img src="src/images/email.png" width = "40px">
-                                noah.d.carrier@gmail.com
-                            </button>
-                        </span>
+                    <hr>
+                </div>
+                <div class = "row text-center">
+                    <div  class = "col-sm-4 h-100 border-end">
+                        <h2 class = "display-1">
+                            Education
+                        </h2>
+                        <h3>
+                            B.S. Information Technology
+                        </h3>
+                        <p>
+                            University of Central Florida
+                        </p>
+                        <p class = "mt-5">
+                            <img src = "src/images/University_of_Central_Florida_seal.svg.png" alt = "UCF Seal" width = "200px">
+                        </p>
                     </div>
-                </section>
-                <footer>
-                    hosted by github pages, learn to do it yourself: pages.github.com
-                </footer>
+                    <div  class = "col-md-4 border-start border-end">
+                        <h2 class = "display-1">
+                            Skills
+                        </h2>
+                        <h3>
+                            Development & Design
+                        </h3>
+                        <p>
+                            Web Development, Software Development, Networking, Information Technology
+                        </p>
+                        <p>
+                            <img src = "src/images/Java_programming_language_logo.svg.png" alt = "UCF Seal" width = "100px">
+                            <img src = "src/images/Bootstrap_logo.svg.png" alt = "Bootstrap Logo" width = "100px">
+                            <img src = "src/images/18133.png" alt = "Git Logo" width = "100px">
+                            <img src = "src/images/C_Logo.png" alt = "C Logo" width = "100px">
+                            <img src = "src/images/HTML5_logo_and_wordmark.svg.png" alt = "HTML5 Badge" width = "100px">
+                            <img src = "src/images/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" alt = "MySQL Logo" width = "100px">
+                            <img src = "src/images/1452px-CSS3_logo_and_wordmark.svg.png" alt = "CSS3 Badge" width = 70px">
+                            <img src = "src/images/javascript-1.svg" alt = "JavaScript Badge" width = 70px">
+                        </p>
+                    </div>
+                    <div  class = "col-md-4 border-start ">
+                        <h2 class = "display-1">
+                            More
+                        </h2>
+                        <h3>
+                            Extracurriculars & Projects
+                        </h3>
+                        <p>
+                            KnightHacks, Google Developer Student Clubs, GitHub Repositories
+                        </p>
+                        <p>
+                            <span class = "p-3"><img class = "rounded-2" src = "src/images/knighthacks.png" width = "100px"></span>
+                            <span class = "p-3"><img class = "rounded-2" src = "src/images/GDSC.webp" width = "100px"></span>
+                            <span class = "p-3"><img class = "rounded-2" src = "src/images/github.png" width = "100px"></span>
+                        </p>
+                    </div>
+                </div>
             </div>
             
 
-           <!-- Load Bootstrap and Popper-->
-        <script src="js/bootstrap.bundle.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
+        <script src="src/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/b52d30833a.js" crossorigin="anonymous"></script>
         </body>
     </html> 
