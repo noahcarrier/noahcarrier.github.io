@@ -59,6 +59,20 @@ nav {
     padding: -5px;
 }
 
+.green-body {
+    background-color: #4e6b4f;
+    border: 5px solid black;
+    padding: -5px;
+}
+
+.blue-body {
+    background-color: #7f85f1;
+    /* set height equal to remaining device space */
+    height: 52vh;
+    border: 5px solid black;
+    padding: -5px;
+}
+
 .orange-body {
     background-color: #D48F68;
     /* set height equal to remaining device space */
@@ -84,3 +98,30 @@ nav {
 }
 
 
+.project-box-title {
+    color: rgb(247, 47, 47);
+    filter: drop-shadow(-1mm 1mm rgb(107, 107, 107));
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.project-box-sub {
+    color: rgb(88, 155, 255);
+    filter: drop-shadow(-.8mm .8mm rgb(107, 107, 107));
+    margin: 0px;
+    padding: 0px;
+}
+
+.repo-link {
+    font-size: .5em;
+    background-color: #4fe5ed;
+    padding: 2%;
+    margin-left: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+.project-box {
+    margin-bottom: 10%;
+}
