@@ -1,144 +1,51 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
-       <!-- META TAGS-->
-       <meta charset="utf-8">
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-
-       <title>Noah Carrier</title>
-       <link rel="icon" type="image/x-icon" href="src/images/code-solid.ico">
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skills | Your Name</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
     <body>
-        <nav class = "navbar navbar-expand">
-                <button class="navbar-toggler btn-link" type="button" data-view-component = "true" data-bs-toggle="collapse" data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample" aria-expanded="true" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars" style = "color: #EBE7C8"></i>
-                </button>
-                
-                <div class="collapse navbar-collapse navbar-dark bg-dark">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class = "navbar-brand mx-3">
-                            &nbsp;
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-        <div>
-            <div class = "container mb-5">
-                <br />
-                <h1 class = "text-center display-1">Noah Carrier</h1>
-                <br />
-                <br />
-                <div section = "about" class = "container-fluid" style = "max-width: 80%;">
-                    <h2>
-                        About Me
-                    </h2>
-                    <hr />
-                    <p>
-                        <span class = "pe-5"></span>I am a student at the University of Central Florida currently studying Information Technology with a minor in Entrepreneurship.
-                        My areas of interest are in Web Development, Enterprise Computing, UX Design, and Server Technologies. My anticipated graduation date is Summer 2024.
-                        I hope this website will provide details about how I may fit into an organization to learn more skills and contribute with what I have already developed in my career.
-                        Below you will find addition credentials I have earned and projects I have worked on.
-                    </p>
-                    <h2>
-                        Education
-                    </h2>
-                    <hr />
-                    <div class = "pb-5 text-center">
-                        <div >
-                            <h3>
-                                University of Central Florida
-                            </h3>
-                            <em>
-                                Bachelor of Science in Information Technology
-                                <br />
-                                Minor in Entrepreneurship
-                            </em>
-                            <br />
-                            <br />
-                            <p>
-                                Expected Graduation: Summer 2024
-                            </p>
-                            <br />
-                            <h3 class = "pb-2">
-                                Organizations
-                            </h3>
-                            <div>
-                                <div>
-                                    <img src="src/images/logo/gdsc.png" alt="Google Developer Student Club Logo" style = "width: 300px;padding-bottom: 20px;"/>
-                                </div>
-                                <div>
-                                    <img src="src/images/logo/knighthacks.png" alt="KnightHacks Logo" style = "width: 300px;padding-bottom: 20px;"/>
-                                </div>
-                                <div>
-                                    <img src="src/images/logo/hack@ucf.png" alt="Hack@UCF Logo" style = "width: 300px;padding-bottom: 20px;"/>
-                                </div>
-                            </div>
-                        </div>
+        <header>
+            <h1>Noah Carrier</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><strong>Home</strong></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="">
+            <h2><div class = "display-3 text-center">Hello, world!</div></h2>       
+            <div class = "container">
+                <div class = "row justify-content-center">
+                    <div class = "col-4">
+                        <p><h2>Problem-Solver</h2></p>
+                        <p><h2>Team Leader</h2></p>
+                        <p><h2>Developer</h2></p>
+                        <p class = "display-4"><strong>In. That. Order.</strong></p>
                     </div>
-                    <div section = "projects" >
-                        <h2>
-                            Projects
-                        </h2>
-                        <hr />
-                        <h3 style = "margin-left: 10%;">RoadTrip - KnightHacks Hackathon 2022</h3>
-                        <hr  style = "width: 90%; margin: auto"/>
-                        <div style = "margin-left: 10%;margin-right: 10%;">
-                            <p>
-                                RoadTrip is a Hackathon project submission to create a full stack website that allows a user to create a trip and learn about road laws and landmarks along their journey.
-                            </p>
-                            <p>
-                                <strong>Technology Used: </strong>HTML, CSS, JavaScript, Google Firebase
-                            </p>
-                            <p>
-                                <strong>Roles: </strong>Project Lead, Backend Developer, and Database Architect
-                            </p>
-                            <button onclick = "location.href='https://devpost.com/software/road-trip-slpu5t'">
-                                Devpost
-                            </button>
-                            <button onclick = "location.href='https://github.com/noahcarrier/Road-Trip'">
-                                Repository
-                            </button>
-                        </div>
-                        <br />
-                        <h3 style = "margin-left: 10%;">MyCAR - Full Stack Web UX Project</h3>
-                        <hr  style = "width: 90%; margin: auto"/>
-                        <div style = "margin-left: 10%;margin-right: 10%;">
-                            <p>
-                                MyCAR is a class project to create a full stack website that allows a user to add cars to a profile they create with the ability to add, modify, and delete information include car specifications, miles, wishlist items, and more.
-                            </p>
-                            <p>
-                                <strong>Technology Used: </strong>HTML, CSS, JavaScript, Bootstrap
-                            </p>
-                            <p>
-                                <strong>Roles: </strong>Full Stack Developer
-                            </p>
-                            <button onclick = "location.href='https://github.com/noahcarrier/myCAR'">
-                                Repository
-                            </button>
-                        </div>
-                    </div>
+                    <div class = "col-4">
+                        <img src = "portrait.png" class = "img-fluid" width="500px" style = "border-radius: 20px; background-color: rgb(188,230,190);">
                 </div>
-                
-            </div>
-        </div>
-        <div section = "footer" style = "background-color: #252525;padding-bottom: 0.5%;padding-top: 0.5%;">
-            <footer style = "width: 70%;margin: auto">
-                <div style = "display: flex;justify-content: space-between;">
-                    <span>
-                        <small><a class = "text-white text-decoration-none " href = "https://www.linkedin.com/in/noah-carrier-0bb377183/">LinkedIn</a></small>
-                    </span>
-                    <span>
-                        <small><a class = "text-white text-decoration-none" href = "https://github.com/noahcarrier">GitHub</a></small>
-                    </span>
-                    <span>
-                        <small><a class = "text-white text-decoration-none" href = "mailto:noah.d.carrier@gmail.com">Email</a></small>
-                    </span>
-                </div>
-            </footer>
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/b52d30833a.js" crossorigin="anonymous"></script>
+            </div>                 
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+        });
+    </script>
 </html>

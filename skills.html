@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skills | Your Name</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Noah Carrier</h1>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html"><strong>Skills</strong></a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="topic">
+
+            <section class="category">
+                <h2>Application Development</h2>
+                <p>Skilled in developing applications using various programming languages and frameworks. Experienced in
+                    full-stack development and version control using Git.</p>
+            </section>
+
+            <section class="category">
+                <h2>Web Development</h2>
+                <p>Proficient in HTML, CSS, JavaScript, and various front-end and back-end frameworks. Experienced in
+                    building responsive and user-friendly websites.</p>
+            </section>
+
+            <section class="category">
+                <h2>Management</h2>
+                <p>Experienced in project management, team coordination, and task delegation. Skilled in Agile and
+                    Scrum methodologies to ensure project success.</p>
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+        });
+    </script>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skills | Your Name</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <h1>Noah Carrier</h1>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html"><strong>Contact</strong></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container justify-content-center">
+            <div class = "row mt-5">
+                <div class = "category col-3 p-3 text-center">
+                    <a href = "https://www.linkedin.com/in/noah-carrier-0bb377183/"><img src="linkedin.png" width="70em" github = "linkedin"></a>
+                </div>
+                <div class = "category col-3 p-3 text-center">
+                    <a href = "https://www.github.com/noahcarrier/"><img src="github.png" width="70em" alt = "github"></a>
+                </div>
+                <div class = "category col-3 p-3 text-center">
+                    <a href = "https://www.x.com/noahcarrier/"><img src="x.png" width="70em" alt = "x"></a>
+                </div>
+                <div class = "category col-3 p-3 text-center">
+                    <a href = "mailto:noah.d.carrier@gmail.com"><img src="gmail.png" width="100em" alt = "Gmail"></a>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav ul');
+
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+        });
+    </script>
+</html>
