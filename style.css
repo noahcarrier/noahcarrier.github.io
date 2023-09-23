@@ -32,7 +32,8 @@ nav ul li a {
 }
 
 main.topic {
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 section.category {
@@ -40,8 +41,8 @@ section.category {
     color: rgb(188,230,190);
     padding: 1em;
     margin-bottom: 2em;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 section.category h2 {
