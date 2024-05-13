@@ -21,19 +21,25 @@ html {
 }
 
 body {
-  background-color: #132617;
+  background-color: #f4f4f4;
 }
 
 h1 {
   font-weight: 700;
   font-size: 3.5rem;
-  color: #ffffff;
+  color: #904E55;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 2.5rem;
-  color: #7ED957;
+  font-size: 2rem;
+  color: #632963;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #252627;
 }
 
 @layer utilities {
@@ -41,11 +47,15 @@ h2 {
     text-wrap: balance;
   }
 }
-
+h1.subtitle {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #904E55;
+}
 .navitem {
-  color: #7ED957;
+  color: #8D86C9;
   &:hover {
-    color: #5fa241;
+    color: #736ea5;
   }
   font-size: 1.5rem;
 }
@@ -54,11 +64,39 @@ h2 {
 #learnmore {
   margin-top: 20px;
   font-size: x-large;
-  color: #7ED957;
+  color: #3a6329;
   &:hover {
-    color: #5fa241;
+    color: #253f1a;
   };
-  border: 2px solid #7ED957;
+  border: 2px solid #3a6329;
   border-radius: 8px;
   padding: 10px;
+}
+
+
+p {
+  color: #252627;
+}
+
+.navitem {
+  color: #ff1462;
+  &:hover {
+    color: #736ea5;
+    text-decoration: underline;
+  }
+  font-size: 1.2rem;
+}
+
+.sociallogo {
+  border-radius: 50%;
+
+    &:hover {
+      background-color: rgb(170, 170, 170);
+    }
+}
+
+.navtitle {
+  color: #222222;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
