@@ -1,47 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Noah Carrier | Portfolio</title>
-        <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Noah Carrier</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="style.css" rel = "stylesheet">
     </head>
     <body>
-        <header>
-            <h1 class="text-center">Noah Carrier</h1>
-            <nav class="d-flex justify-content-center">
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><strong>Home</strong></a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="text-center m-5">
-            <h2><div class="display-3 text-center">Hello, world!</div></h2>       
-            <p class="display-4">Welcome to my portfolio website.</p>
-            <hr class="my-4">
-            <div class="h5"></div>
-                <p>I'm Noah Carrier, an IT graduate from UCF passionate about software development, project management, and more.</p>
-                <p>On this website, you'll find information about my projects, skills, and more.</p>
+        <div section = "navbar" class = "container">
+            <div class = "text-end p-3">
+                <a id = "resumeLink" href="resume.pdf" target="_blank">Resume</a>
             </div>
-            <a class="btn btn-primary btn-lg" href="about.html" role="button">Learn more about me</a>
-        </main>
-        <footer class="text-center">
-            <span><a href="https://www.github.com/noahcarrier" style="color: white;">Github</a></span><span> | </span><span><a href="https://www.linkedin.com/in/noahcarrier" style="color: white;">LinkedIn</a></span><span> | </span><span><a href="mailto:noah.d.carrier@gmail.com" style="color: white;">Email</a></span>
-        </footer>
-    </body>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuToggle = document.querySelector('.menu-toggle');
-            const nav = document.querySelector('nav ul');
+        </div>
+        <div section = "home" class="mt-5 p-5 text-center">
+            <div class = "m-5">
+                &nbsp;
+            </div>
+            <div id = "titleName" class = "mx-auto fs-1">
+                <span class ="fw-lighter">NOAH</span><b class = "fs-2">carrier</b>
+            </div>
+            <div class = "text-body-tertiary">IT professional with a background in development</div>
+        </div>
+        <div class = "m-5">
+            &nbsp;
+        </div>
+        <div section = "projects mt-5">
+            <div class = "m-5">
+                &nbsp;
+            </div>
+            <div id = "projectsHeadline p-5">
+                <h2 class = "text-center fw-lighter fs-1">projects</h2>
+                <div class ="d-flex justify-content-center">
+                    <hr />
+                </div>
+                <div class = "m-2">&nbsp;</div>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fs-1 mb-5">RoadTrip</h5>
+                            <div class = "m-5">&nbsp;</div>
+                            <p class="card-text text-body-tertiary fs-5 mb-5">road-trip planning site, <br> built for KnightHacks</p>
+                            <div class = "m-5">&nbsp;</div>
+                            <div class ="container">
+                                <div class="d-flex justify-content-around">
+                                    <span>
+                                        <img  alt="html" src="images/html.png" >
+                                    </span>
+                                    <span>
+                                        <img  alt="css" src="images/css.png" >
+                                    </span>
+                                    <span>
+                                        <img  alt="bootstrap" src="images/bootstrap.png" >
+                                    </span>
+                                    <span>
+                                        <img  alt="firebase" src="images/firebase.png" >
+                                    </span>
+                                    <span>
+                                        <img alt="javascript" src="images/js.png" >
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title text-center fs-1 mb-5">myCAR</h5>
+                        <div class = "m-5">&nbsp;</div>
+                        <p class="card-text text-body-tertiary fs-5 mb-5">DIY car maintenance <br> logging web application</p>
+                        <div class = "m-5">&nbsp;</div>
+                        <div class ="container">
+                            <div class="d-flex justify-content-around">
+                                <span>
+                                    <img  alt="html" src="images/html.png" >
+                                </span>
+                                <span>
+                                    <img  alt="css" src="images/css.png" >
+                                </span>
+                                <span>
+                                    <img  alt="bootstrap" src="images/bootstrap.png" >
+                                </span>
+                                <span>
+                                    <img alt="javascript" src="images/js.png" >
+                                </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title text-center fs-1 mb-5">FinWise</h5>
+                        <div class = "m-5">&nbsp;</div>
+                        <p class="card-text text-body-tertiary fs-5 mb-5">flash card-based studying <br> web application</p>
+                        <div class = "m-5">&nbsp;</div>
+                        <div class ="container">
+                            <div class="d-flex justify-content-around">
+                                <span>
+                                    <img  alt="tailwind" src="images/tailwind.png" >
+                                </span>
+                                <span>
+                                    <img  alt="typescript" src="images/typescript.png" >
+                                </span>
+                                <span>
+                                    <img  alt="next.js" src="images/nextjs.png" >
+                                </span>
+                                <span>
+                                    <img alt="postgresql" src="images/postgresql.png" >
+                                </span>
+                                <span>
+                                    <img alt="react" src="images/react.png" >
+                                </span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class = "m-5">&nbsp;</div>
+        </div>
+        <div section = "social">
+            <div class = "m-5">&nbsp;</div>
+            <div class = "m-5">&nbsp;</div>
+            <div class = "container w-50 d-flex justify-content-around align-items-center">
+                <span >
+                    <a href = "https://github.com/noahcarrier" rel = "noopener" target="_blank"><img id = "github-icon" class ="social-icon" alt = "github" src = "images/github.png"></a>
+                </span>
+                <span >
+                    <a href = "https://linkedin.com/in/noahcarrier" rel = "noopener" target="_blank"><img id = "linkedin-icon" class ="social-icon" alt = "linkedin" src = "images/linkedin.png"></a>
+                </span>
+                <span >
+                    <a href = "mailto:noah.d.carrier@gmail.com"><img id = "gmail-icon" class ="social-icon" alt = "gmail" src = "images/gmail.png"></a>
+                </span>
 
-            menuToggle.addEventListener('click', function() {
-                nav.classList.toggle('active');
-                menuToggle.classList.toggle('active');
-            });
-        });
-    </script>
+            </div>
+            <div class = "m-5">&nbsp;</div>
+
+        </div>
+        <footer>
+            <div class ="bg-secondary text-center text-white p-3">
+                <span>© 2025 Noah Carrier, Made with ❤️ and Bootstrap</span>
+            </div>
+        </footer>
+        
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
