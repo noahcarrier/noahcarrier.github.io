@@ -46,3 +46,8 @@ img.social-icon {
 image#linkedin-icon {
     filter: opacity(70%);
 }
+
+.aplus {
+    width: 150px;
+    height: 150px;
+}
