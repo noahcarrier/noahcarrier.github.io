@@ -51,3 +51,17 @@ image#linkedin-icon {
     width: 150px;
     height: 150px;
 }
+
+.hoverbanner {
+    position: fixed;
+    right: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: 'Alexandria', serif;
+    border: none;
+    z-index: 1000;
+    font-size: small;
+}
