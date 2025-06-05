@@ -8,21 +8,28 @@
         <link href="style.css" rel = "stylesheet">
     </head>
     <body>
+        <!-- Banner buttons in separate divs outside the main content flow -->
+        <div id="pybannerContainer" class="banner-container">
+            <button onclick="window.open('https://www.github.com/noahcarrier/pyproj', '_blank')" class="hoverbanner pybanner">
+                <span><img alt="python logo" src="images/python.png" class="rounded-circle python"></span>
+                <span class="mr-4">See what I'm making in Python</span>
+            </button>
+        </div>
+        <div id="flexbannerContainer" class="banner-container">
+            <button onclick="window.open('https://www.github.com/noahcarrier/flexdesk', '_blank')" class="hoverbanner flexbanner">
+                <span><img alt="electron logo" src="images/electron.png" class="rounded-circle"></span>
+                <span class="mr-4">Check out my new project</span>
+            </button>
+        </div>
+
         <div section = "navbar" class = "container">
             <div class = "text-end p-3">
                 <a id = "resumeLink" href="resume.pdf" target="_blank">Resume</a>
             </div>
         </div>
         <div section = "home" class="mt-5 p-5 text-center">
-            <button onclick="window.open('https://www.github.com/noahcarrier/pyproj', '_blank')"  class = "hoverbanner pybanner">
-                <span><img alt = "python logo"  src = "images/python.png" class = "rounded-circle python"></span>
-                <span class = "mr-4">See what I'm making in Python </span>
-            </button>
-            <button onclick="window.open('https://www.github.com/noahcarrier/flexdesk', '_blank')"  class = "hoverbanner flexbanner">
-                <span><img alt = "python logo"  src = "images/electron.png" class = "rounded-circle python"></span>
-                <span class = "mr-4">Check out my new project</span>
-            </button>
-            <div class = "m-5">
+            <!-- Remove the buttons from here -->
+            <div class="m-5">
                 &nbsp;
             </div>
             <div id = "titleName" class = "mx-auto fs-1">
