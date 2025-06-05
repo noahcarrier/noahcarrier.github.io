@@ -63,12 +63,27 @@ image#linkedin-icon {
     right: 0%;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: aliceblue;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     font-family: 'Alexandria', serif;
     border: none;
     z-index: 1000;
     font-size: small;
     color: black;
+}
+
+.pybanner {
+    background-color: aliceblue;
+    top: 120px; /* Moved lower on the page */
+}
+
+.flexbanner {
+    transform: translateY(25%);
+    background-color: rgb(202, 205, 245);
+    top: 180px; /* Increased distance from first button */
+}
+.hoverbanner img {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
 }
